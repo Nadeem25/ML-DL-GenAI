@@ -1,0 +1,46 @@
+---------------------------- Normalization ------------------------------------------
+Normalization is a technique used to make different numbers easier to compare by scaling them to a common range, usually between 0 and 1.
+Frmula: Normalized Value = (x - min) / (max - min)
+
+🧠 1. Normalization in Machine Learning
+🎯 Use Case: Predicting House Prices
+Imagine you're training a machine learning model to predict house prices using features like:
+
+Area in sq. ft → ranges from 500 to 5000
+
+Number of bedrooms → ranges from 1 to 5
+
+Price → ranges from ₹10 lakhs to ₹1 crore
+
+👉 The problem is that area and price have much larger values than the number of bedrooms. The model might think area and price are more important just because the numbers are bigger — even if they’re not.
+
+✅ Solution: Normalize all features to a range (like 0 to 1)
+plaintext
+Copy
+Edit
+Original Area: 3000 sq ft
+Min Area in dataset: 500
+Max Area in dataset: 5000
+
+Normalized Area = (3000 - 500) / (5000 - 500) = 0.555
+
+
+📊 2. Normalization in Data Analysis
+🎯 Use Case: Analyzing Customer Spending
+You’re analyzing two things for each customer:
+
+Monthly Spending (₹1,000 – ₹80,000)
+
+Age (18 – 65)
+
+If you plot or cluster the data without normalization, the age values look very small compared to the spending — so spending dominates the analysis.
+
+✅ Solution: Normalize both
+plaintext
+Copy
+Edit
+Customer Age: 25
+Min Age: 18
+Max Age: 65
+
+Normalized Age = (25 - 18) / (65 - 18) = 0.15
