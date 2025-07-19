@@ -7,3 +7,4 @@ langchain_text_splitters
 langchain-openai
 chromadb
 faiss-cpu
+beautifulsoup4
