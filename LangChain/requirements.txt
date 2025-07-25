@@ -8,3 +8,6 @@ langchain-openai
 chromadb
 faiss-cpu
 beautifulsoup4
+streamlit
+langchain_groq
+langchain_core
