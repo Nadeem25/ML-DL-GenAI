@@ -7,3 +7,5 @@ matplotlib
 streamlit
 scikeras
 nltk
+sklearn
+matplotlib
