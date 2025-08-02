@@ -18,3 +18,7 @@ sse_starlette
 langchain-chroma
 langchain_huggingface
 sentence-transformers
+bs4
+crewai
+crewai_tools
+scikit-learn
